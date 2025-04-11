@@ -1,0 +1,232 @@
+python comment :- A comments of a part the coding that programming does not want to execute rather the programming user it to either explain a block 
+code or to avoid the execution of a specific part code  while testing.
+single-Line comments
+to write a comments just a '#' at start of the line.
+ 
+ VARIBLE AND DATA TYPES
+ What is varible 
+ varibleis like containerthat hold very similar to how container in kitchen holds suger,salt etc creating a varible
+ is like creating a palce holderin memory and it some in pyhton its as easy as writing
+ a = 1
+ c = true 
+ d = "payal"
+
+ what is data type?
+  Data type sepcifies the type of value holds this is requid in programming various opertions with causing  an error.
+  In python, we can print type of any using functions
+  a = 1
+  print (type(a))
+  b = "1"
+  print(type)
+
+  1.numeric data  :int ,float,complex
+  .int 3.-8, 0
+  .float  7.384 -90.0000001
+  .complex 6 +12
+
+  2.TEXT data :str
+  str."HELLO WROLD!!!" , "PYTHON PROGAMMING"
+
+3. BOOLEAN DATA
+boolean data consists of value true or false
+
+4. Sequence data:list, tupes
+list :A list is an order collection of data with elements by a comma and enclosed with square barckets.list  are mutable and can 
+by modified after creation
+example :- list [8,230[-4,5] "apple","banana]}
+print(list)
+ 
+ 5. Mapped data:dict
+ dict: A dictonary is an unorderd collectonof data contining a key:value pairs enclosed curly barckets
+ Example:
+ dict ={"name":"payal", "age:20" "canVote":true}
+ print(dict1)
+
+
+ Typecasting  in  python
+ The conversion of one  data  type into thw other data type is know
+ as type casting in python or type conversion in python
+
+python  support a width  variety of functions or method line 
+int(), float(), str(), oct(), set(), tuple(), set(), list(), dict()
+etc for the type casting in python.
+
+Two types of Typecafting :
+
+Explict conversion (Explict type casting in python)
+Implict conversion(Implict type casting in python)
+
+
+Taking user Input in Python
+In python, we can take user directly by using input() function .this input 
+functions gives value as string/character hance we have pass that into a value varible
+ syntax 
+  
+  varbile = input()
+  
+  but input functions return the value string. hence we have to typecasting 
+  them whenever required to anther datatype
+  
+  varible = int(input());
+  varible = int(input());
+  we  can  also display at text using functions.this will make input()
+  funtions take user input display a massage as will
+  
+  WHAT is strings?
+  IN PYthon  anything that you enclose between single or double or qeotation marks is considered a srtings. A string is essentially a 
+  sequence or array of textual data string are used working with unicode character
+  
+  Example 
+  name = "payal"
+  print("hello" + name)
+  
+  String Slicing & Opertion String Length of String 
+  we can find the length of String len() function
+  
+  Example 
+  fruit = "Mongo"
+  len1 = len(fruit)
+  print("Mango is a" len1, "letter word")
+  
+  output:
+  Mango is a 5 letter word
+  
+  String  as an array 
+   A string is essentially a sequence  of  character also called an array . thus we can access the elements of this array
+   
+   Example:
+   pie = "Applepie"
+   printpie[:5]
+   print(pie[6]) #return charater at specifird index
+    output :
+    Apple 
+    i
+    
+    Loop through a string 
+    String  are array are iterable.thus we can loop  through Strings. 
+    
+     Example :
+     alphabets = "ABCD"
+     for i in alphabets 
+     print(i)
+     
+     output
+     A 
+     B 
+     C 
+     D 
+     E 
+     
+  String Method 
+  Python provides a set of built-in-method that we use to after and modifiy the string 
+  
+  upper():
+  The upper() method converts a string to upper case
+  Example : 
+  str1 = "AbcDfghij"
+  print(str1.upper) 
+  
+  output :
+  AbcDfghij
+  
+  lower() 
+  The lower() method convert a stirng to lower case
+  Example:
+  str1 = "AbcDEfghij"
+  print(str1.lower)
+  
+  output:
+  AbcDEfghij
+  
+  
+  if-else-statement 
+  Sometimes the programmer needs  check  the evaluation of certain 
+  expression(s) whether the exression(s) evaluation to TURE or FALSE expession 
+  evaluation or FALSE. then the program exection had evauation or true.
+  
+  Based on this .the condtional statement are further classfied into following types
+  .if
+  .if-else
+  .if-else-if
+  .nested if-else-elif
+  
+  lopps  in Python
+  sometimes a programmer wants to exectue group of statement a 
+  ceratin number of times this be can done using loop.based on this
+  loops are Future classfied into following  type; for looping,while Loop 
+  nected loops
+  
+  for loop
+  for loops can iterate over a sequence of iterable in Python
+  iterating over a sequence is noting  but iterating over string,list,
+  tupes,set, and dictionaries. 
+   
+   EXample : iterating over a string 
+   name = "Abhishek"
+   for i in name:
+   print(i, end=" ,")
+   A, b, h, i,s,h,e, k 
+   
+   PYthon while Loop 
+   As the suggests,while loops execute statements while the conditions  is ture. 
+   as soon  as the becomes false the interter out while Loop  
+   
+   Example:
+   count = 5
+   while(count > 0)
+   print(count)
+   count = count - 1 
+   
+   Break statement 
+   The break statement enables a program to skip over a part of code.
+   A break statement terminals the very loop it lies within
+   
+   for(in range(1, 101,1)):
+   print(i,end=" ")
+   if(i==50) 
+   break 
+   else:
+   print("Mississippi")
+   print("thank you")  
+   
+   
+  FUNCTION argument and return python  statement 
+   There are four types of argument that we can provide in a function 
+   .Default argument 
+   .Keyword argument
+   .Varible argument
+   .Required argument
+   
+  Default argument 
+  We can provide  value creating a function .This way the function assume a defult
+  value even if a value is not provide in the function call  for  that argument.
+  
+  Example :
+      def name (fname, sname, fname = "payal");
+  print("Hello", fnmae, sname, fname)
+  name("Any" payal)
+  
+  Keyword argument 
+  We can provide with  key=value, this way the Interpreter recgnizes by the paramter Name 
+  hence, the  order in which the argument are passed does not matter . 
+    
+    Example :
+    def name(**name):
+    print("hello,", name["fname"] name["lname"])
+    
+    name(mname="Buchanan", lname="Barnes" fname"jamea")  
+     
+     Return Statment 
+      The return statment is used the value of the expression back to the calling function
+      
+      Python lists
+      .Lists are orderd collection of data items
+      .They store multiple items in a single varible
+      .List items are separared comments and enclosed within square barckets ()
+      .Lists are changeable meaning we can alter them creation
+      
+      
+      list =(1,2,3,4,5,6)
+      list('red', 'green', 'bule')
+      print(list1)
+      print(list2)
