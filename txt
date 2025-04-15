@@ -230,3 +230,33 @@ functions gives value as string/character hance we have pass that into a value v
       list('red', 'green', 'bule')
       print(list1)
       print(list2)
+      
+      Python tuples
+      Tuples are order collection of data items. they store multiple items in Single  
+      varible .tuple items are separated  by commas enclosed with round brackets (). 
+      tuples are unchanged meaning can not them after creation
+      
+      Example 1:
+      tuple1 = (1,2,2,3,5,4,) 
+      tuple2 =("Red", "Green", "Bule")
+      print(tuple1)
+      print(tuple2)
+      
+      Example 2
+      details = ("Abhijeet", 18, "Abhishek", 19)
+      print(details)
+      
+      Manipulating Tuples
+      Tuples are immutable , hence it you want to add.remove or change tuple 
+      items, then first you convert the tuple to a list. then perform operaton on list and convert it back to tuple
+      
+      Example :
+      countrise = ("Spain", "Italy", "India","England", "Germany")
+      temp = list(countrise)
+      temp.append("Russia") #add item
+      temp.pop[j]              #remove item 
+      temp[2]                    #change item
+      countrise = tuple(temp)
+      print(countrise)
+      
+      
