@@ -259,4 +259,33 @@ functions gives value as string/character hance we have pass that into a value v
       countrise = tuple(temp)
       print(countrise)
       
+      Recursion in Python 
+      Recursion is the process of dataing something of itself
+      
+      A physical world example would be to  palce two parallel mirrors facing  ecah other 
+      Any  object in between them would  be reflected Recursively. 
+      
+      Python in Recursion Function 
+      In python , we  know a function can call other function .It is even possbile for  the function 
+      tp call itself .These type of construct are termed as recyrsion function
+      
+      Python Sets 
+      Sets are unorder collection of data items .they 
+      store muiltple itemsi a single varbile set items are separated by commas aand unorder within curly barckets{} . 
+      Sets are unchanged items of the set once created. sets do not contain duplication item
+      
+      Example :
+      info = {"Carla", 19, False, 5.9, 19}
+      print(info)
+      
+      
+      Joining Sets 
+      Sets in python more or less work in the way as sets in mathematics.we can perform operation like  union 
+      and intersection on the sets just like mathematics
+      
+      
+      I.union() and update()
+      The unoin() and updata prints all items  that are persent in the  two sets .the 
+      union method() returns  aa new  set wheres update() method adds items into the existing set form 
+      another set
       
