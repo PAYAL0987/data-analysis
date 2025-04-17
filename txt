@@ -289,3 +289,12 @@ functions gives value as string/character hance we have pass that into a value v
       union method() returns  aa new  set wheres update() method adds items into the existing set form 
       another set
       
+      Python Dicitonaries
+      Dicitonaries are orderd of coolectionof data items they stores multiple items in a single 
+      varible.dicitonary items are key value pairs are separated by commas and enclosed curly barckests{}. 
+      
+      Example :
+      info = {"name":"Karan", 'age':19, "eligable":Ture}
+      print(info)
+      
+      
