@@ -297,4 +297,28 @@ functions gives value as string/character hance we have pass that into a value v
       info = {"name":"Karan", 'age':19, "eligable":Ture}
       print(info)
       
+      Python - else in loop
+      As you have learnd berfore, the else to else clause is used with along with the statement
       
+      Python allows the else keyword to be used with the for and while loops too. the  else block appars after the body of the 
+      loop. the statement in the  else block will be exculated after all iteration are completed. the program exits the loop after
+      the else block is executed
+      
+      Exception Handling
+      Exception handling is the Process of responding to unwanted or unexpected 
+      events when a computer runs. exception handling deals with these events to avoid the program or system crashing. and without this these
+      exceptions would disrupt the normal opertion of program.PendingDeprecationWarning
+      
+      Exception in Python 
+      Python has many build-in-exceptions that are  raised when your program
+      encounters are error(something in the program goes wrong)
+      
+      when these exception  occur. the python  interpreter stop the current Process and 
+      passes it to the calling process unilt it handled. if not handled, the program will crash.
+      
+      Finally Clause
+      The finally code block is also a part of exception handling . When we  handle exception
+      using the and except block , we can include a finally block at the  end. the finally
+      block is always executed, so it generally used for doing concluding taks like closing
+      file resources or closing database connection or may be ending the program
+      execution with a delighful message.
