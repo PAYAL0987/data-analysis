@@ -322,3 +322,15 @@ functions gives value as string/character hance we have pass that into a value v
       block is always executed, so it generally used for doing concluding taks like closing
       file resources or closing database connection or may be ending the program
       execution with a delighful message.
+      
+      Raising Custom error 
+      In python .we can raise custom error by using the raise keyword
+    
+    If...Else in one Line 
+    There is also a shortthand syntax for the if-else statement that can be 
+    used when the condtition beign tested is simple and the code blocks to be executed
+    are short. here an example:
+     
+     a = 2
+     b = 338
+     print("A") if a > b else print("B")
