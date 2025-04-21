@@ -334,3 +334,44 @@ functions gives value as string/character hance we have pass that into a value v
      a = 2
      b = 338
      print("A") if a > b else print("B")
+     
+     Enumerate function in Python 
+     The enumerate function is a bulit-in function in pyhton  that  allows you lo loop over a squyence(such as list,tuple or string)
+     and get the index value of each element of in the value in the sequence at the same time here a basic example of how it world:
+      
+      
+      #loop over a list and print the index and value of each element
+      
+      fruit = ('apple', 'banan','mango')
+      for index, fruit in enumerate(fruit):
+      print(index,fruit) 
+      
+      Virtual Environment 
+      A virtual enviroment is a tool to isolate python Environment on a single meachine, allowing you to work on multiple 
+      project  with different dependecies and package without conflicts.This can be espcially usefull when working 
+      on project that have confilcting packages that are not compartible with each other.oct
+      
+      to create a virtual environment in python , you can  the venu module that comes with . here an example of 
+      how to create a  virtual environment and activate it:
+      
+      #CREATE A  VIRTUAL ENVIRONMENT 
+      python -m  venu myenv
+      
+      #Activate  the virtual environment (linux/mac005)
+      source myenu/bin/activate
+      
+      #activate the virtual environment (window)
+      myenv\Script\actice.bat
+      
+      
+      HOW importing i python works 
+      Importing  in python is the process of loading fron module into the current script
+      this allows yoy the function and varilbe  defined in the module i your current script ,as well 
+      as any addtional module that the improted module any depend  on. 
+      
+      import math  
+      
+      import math 
+      
+      result = math.sqrt(9)
+      print(result) # output : 3.0
