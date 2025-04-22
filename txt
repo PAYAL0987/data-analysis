@@ -375,3 +375,30 @@ functions gives value as string/character hance we have pass that into a value v
       
       result = math.sqrt(9)
       print(result) # output : 3.0
+      
+      os module in python 
+      The on module in python is a built in libary that provids function with the 
+      opertaing system .it allow you to perform a variety to taks such as rading and 
+      writing files interacting with file system , and running system commands
+       
+       here are some common tasks you perform with the os module :
+       
+       
+       Example :
+       #open the file in read-only node 
+       f = os.ope(n"myfile.text",os.O_RDONLY)
+       
+       #Read the content of the file 
+       contents = os.read(f,1024)
+       
+       #close the file
+       os.close(f)
+       
+       local and  gable varible
+       before we dive the different between loacal and  varible .let first what a varible  in Python 
+       a varible is a named loction i  memory that stores  value in python  we can  assign  value to 
+       varibles using the assigenment opertion =.for 
+        
+        Example :
+        x = 5
+        y = "Hello, world!"
