@@ -402,3 +402,79 @@ functions gives value as string/character hance we have pass that into a value v
         Example :
         x = 5
         y = "Hello, world!"
+        
+        Operning a File 
+        Before we can perform  opertions on a file, must first provides the open() function to open a file . It takes two 
+        argument  the name of the moldlein which  the  should be opened the mode can reading w for wsting  or "a" foe appending
+        
+        Example 
+        f = open('myfile.txt','f')
+        
+        readlines() method 
+        The reading() method reads a single form the file. If we want to read multiple lines we can use a Look. 
+        
+        Example :
+        f : open('myfile.txt',r)
+        while True:
+        line = f.readline()
+        if not line:
+        print(line)
+        
+        Seek() and tell() functions  
+        In python , the seek() and tell() function are used to work with file 
+        object and their position within a file . there function are part of 
+        the built-in-io module ,which provides  a consistent intertion for reading  and 
+        writing to various file-like-object, such the files,pipes and in memory Buffer. 
+        
+        Seek() function 
+        The seek() function allows you to move the current postion within a flie 
+        to a  specific point. The position is specific i bytes. and  you can move  either 
+        forword or backward form the current for 
+        
+      example:
+      with open("file.txt", "r") as f:
+      #move to the 10th byte in the file
+      f.seek(10)
+      
+      #read the next 5 bytes
+      data = f.read(5)
+      
+      Tell() function
+      The tell() function return  the currnt postion within the file in byte 
+      this can be useful for keeping  track of your loction  within  the  file 
+      seeking to a speific postion relative to the current postion . for Example 
+      
+      Lambda function in Python 
+      In python a lambda function is a small anonymous function whitout a mame 
+      It is defined using lambda keyword  and has follwing Syntax. 
+      lambda argument: expression  
+      lambda function are often used in situation when a small function is 
+      requrid for a short period of time .they are commonly used as argument to higher-order 
+      function ,such are map reduce. 
+      
+      here is an  example of how to use lambda function
+      
+      #Function to double  the input
+      def double(x):
+      return x - 2
+      
+      #lambda function to double the input 
+      lambda x: x * 2
+      
+      Map, Filter and Reduce 
+      In python , the filterand reduce function and built-in-function that allow you to apply a function to a
+      sequence of elements and return a new sequence .These function are higher-order function , as they 
+      take other function as argument 
+      
+      Map 
+      The map function applied a function to each element in a sequence and 
+      return a new sequence containg the transformed element. the map function 
+      has following  syntax:
+      map(function, iterable) 
+      
+      Example :
+      # list of numbers
+      number = [1, 2, 3, 4,5]
+      
+      #double each number using the  map function 
+      double = map(lambda x: x * 2, number)
