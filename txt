@@ -478,3 +478,5 @@ functions gives value as string/character hance we have pass that into a value v
       
       #double each number using the  map function 
       double = map(lambda x: x * 2, number)
+      
+      
