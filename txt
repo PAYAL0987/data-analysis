@@ -479,4 +479,9 @@ functions gives value as string/character hance we have pass that into a value v
       #double each number using the  map function 
       double = map(lambda x: x * 2, number)
       
+      Decorators in Python 
+      In python , decorators are a powerfull and flexible way to modifly the behavoir of function or class with out 
+      changing their actual code. 
       
+      Basic  idea:
+      A decorator is a funvtion that takes another function(or method) as input and returns a new function with added behavior.
