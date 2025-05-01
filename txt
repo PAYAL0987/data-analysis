@@ -485,3 +485,19 @@ functions gives value as string/character hance we have pass that into a value v
       
       Basic  idea:
       A decorator is a funvtion that takes another function(or method) as input and returns a new function with added behavior.
+      
+      Getter and Setter in python 
+      In python, getter and setter are  methods used to access and update the value of private of 
+      protected attributes . when not stictly necessary due to python flexible nature , they can be helpful
+      for encapsulation ans adding logic access of assignment.
+      
+      Inheritance in Python 
+      Inhertance in python is a feature that allow one class (called the child or subclass) to inherit 
+      attbutes and mehode form  another class (called the parent or superclass). this promotes code reuse  
+      make it easier to create and maintain applications. 
+      
+      1.Single Inheritance - one  child inherits form one parent. 
+      2.Multiple Inheritance - one child inherits form multiple parent. 
+      3.Multiple Inheritance - Inheritance of a class from  a derived class 
+      4.Hierarchical Inheritance - multiple children inherit form one parent 
+      5.Hybrid Inheritance - a combination of two or more types of inheritance
