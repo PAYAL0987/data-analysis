@@ -500,4 +500,19 @@ functions gives value as string/character hance we have pass that into a value v
       2.Multiple Inheritance - one child inherits form multiple parent. 
       3.Multiple Inheritance - Inheritance of a class from  a derived class 
       4.Hierarchical Inheritance - multiple children inherit form one parent 
-      5.Hybrid Inheritance - a combination of two or more types of inheritance
+      5.Hybrid Inheritance - a combination of two or more types of inheritance 
+      
+      Intance class variables 
+      In python, instance class variables usuallyrefer that are unique to ecah object (instance) of a class. they re different from 
+      that  calss variable , which are shared across all isinstance 
+      
+    What is Class Methodes in python 
+    A class methode is a type of methode that is bound to the  class and  not the instance of the class . in  other 
+    words, it operations on the instance of the class as a world ,rather than on a specific instance of the the class
+    class Class methodeare define using the decorater followed by a function defination the first argument of the function 
+    always "cls" which represent the class itself  
+    
+    staticmethod in python  
+    Static mthode in python  are methode that belong to a class rather than a isinstance of the class. they are define using 
+    the class a  they define using the @staticmethod decorater do not have access to the instance of the class (ie, self)
+    they are called on  are used  to crate utilitiy function that dont need access need to instance data
