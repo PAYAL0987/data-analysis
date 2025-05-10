@@ -516,3 +516,5 @@ functions gives value as string/character hance we have pass that into a value v
     Static mthode in python  are methode that belong to a class rather than a isinstance of the class. they are define using 
     the class a  they define using the @staticmethod decorater do not have access to the instance of the class (ie, self)
     they are called on  are used  to crate utilitiy function that dont need access need to instance data
+    
+    
