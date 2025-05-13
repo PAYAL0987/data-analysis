@@ -529,4 +529,14 @@ functions gives value as string/character hance we have pass that into a value v
     Operators overloading  in python 
      Operators overloading  in python allows  you to define custom behavior for operators(+, -, * etc) when they're 
      used with objects of your own classes. this is done by defining special magic method (also called dunder methode like __add__,
-     __eq__, etc).
+     __eq__, etc). 
+     
+     Single Inheritance in python 
+     Single Inheritance in python a type of inheritance where a child class inherits from onr parent class.
+     This allow the child class to reues the methods and attributes of the the parent class 
+     
+      Multiple inheritance in python 
+      Multiple inhertance in python is when a child class inherits from more than one part 
+      class. python supports this directly and allow a class to inherit attributes and method 
+      form multiple base classes
+      
