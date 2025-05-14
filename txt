@@ -540,3 +540,12 @@ functions gives value as string/character hance we have pass that into a value v
       class. python supports this directly and allow a class to inherit attributes and method 
       form multiple base classes
       
+      Multilevel inheritance in python 
+      Multilevel inheritance in python is a type of inheritance where a class is derived from a child class, which itself 
+      is derived from another parent class. it creates a chain of inheritance. 
+      
+      Hybrid Inheritance in python 
+      Hybrid Inheritance in python is a combination of more than one type of inheritance(like + multiple or hierarchical, etc) 
+      
+      Hierarchical Inheritance in python 
+      In hierarchical inheritance, multiple classes inherit form the same base class
